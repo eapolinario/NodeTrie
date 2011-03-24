@@ -13,7 +13,6 @@ function loadWords(filename){
 
 		if(stat.isFile()){
 			fs.readFile(filename, 'utf8', function (read_error, content) {
-				debugger;
 				root = JSON.parse(content);
 				sys.puts(content);
 
