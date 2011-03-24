@@ -1,6 +1,7 @@
 var sys = require('sys'),
     fs = require('fs');
 
+// variable that holds the trie
 var root = {};
 
 function loadWords(filename){
