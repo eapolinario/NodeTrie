@@ -10,7 +10,6 @@ function loadWords(filename){
 			process.exit(1);
 		}
 
-		debugger;
 		if(stat.isFile()){
 			fs.readFile(filename, 'utf8', function (read_error, content) {
 				debugger;
